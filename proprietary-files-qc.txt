@@ -560,12 +560,12 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so|9645007e2ee28fb7ff53bde78fa8bea299a2
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so|f4eef520bbf98e6e1ac8697ef7eef0109487dba1
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
-# QC RIL - from tissot - V10.0.9.0.PDHMIXM
-vendor/bin/hw/qcrild|442a706df50e319f00aa92a69e7c06e4e75ff5b5
+# QC RIL - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/bin/hw/qcrild|81eb6798900284293c14019d2aae5d9d65ad6f4a
 vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
-vendor/lib64/libqcrilFramework.so|553f7d3d2722e1d8ba8dec37ca4feabb45e5dc12
-vendor/lib64/libril-qc-hal-qmi.so|d707dc9d6a8d64e2f14d714d6384ddc032ffb707
-vendor/lib64/qcrild_librilutils.so|04aba2f6a658ad20812d309ec347d41e3d90ff24
+vendor/lib64/libqcrilFramework.so|05ac71ec2badad8e7aac2427e5cfb1e7d22e4659
+vendor/lib64/libril-qc-hal-qmi.so|07558713eef625303ecce8c2cef01776fe09e991
+vendor/lib64/qcrild_librilutils.so|3ba7d225e19c367b9e3e51756a9cde0719b96ab0
 
 # Sensors - from tissot - V10.0.9.0.PDHMIXM
 vendor/bin/sensors.qti|a2294878cef6ab4a6e51968e88799585c7d456fd
