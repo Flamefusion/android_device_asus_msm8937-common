@@ -157,27 +157,30 @@ vendor/lib64/libdpmqmihal.so|903e732361dddd2dffdd3e9facf76180096710c8
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|09906c68dc0b5bf896766336079cd1e1a87559a6
 vendor/lib/libdpmqmihal.so|e68d0fa8c0de8b031b475c31080c607460d60719
 
-# DRM - from tissot - V10.0.9.0.PDHMIXM
-vendor/bin/qseecomd|14eaa0752ac0eb2308708056d094a05d9e5129b8
-vendor/lib/libQSEEComAPI.so|3a4de1c673d0e196c553fbfcec0ee4a3275915af
-vendor/lib64/libGPreqcancel.so|942e96e6c1706b52e0b2f898c5947f16f8612994
-vendor/lib64/libGPreqcancel_svc.so|699c1d86af3a0fe58ff3b9cc927f001ed10ee745
-vendor/lib64/libQSEEComAPI.so|1e695dcc9197c685c294d426822d2cb4e4c9c592
-vendor/lib64/libSecureUILib.so|d1bb44ffb30ab0efbc9d05ad729bac8b71dc28f5
-vendor/lib64/libStDrvInt.so|61eb3821f61fb5b8e5a23f961111f09c93208918
-vendor/lib64/libdrmfs.so|e20cc71ac84a7998626e600f4dd9dfe356a1436a
-vendor/lib64/libdrmtime.so|4efeb1449809aa172e68fe5bf5aa68be0f21387d
-vendor/lib64/libqisl.so|54d0ba8662dcc8bb664c2acc7315fb9bfffc773f
-vendor/lib64/librpmb.so|ba775205529284dc5d2233f11462037538f763af
-vendor/lib64/libsecureui.so|66befbd91628d464b71e1cd523eb111d517a5b84
-vendor/lib64/libsecureui_svcsock.so|ab9ec06666c6c63e4a30b2fe503e6088aab3629d
-vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
+# DRM - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/bin/qseecomd|d79a4cb59568c96051538d34bce08030ff74460e
+vendor/lib/libQSEEComAPI.so|bd7c6f1e8d3c17ccafc9fb3277c10d37eb2b5cb1
+vendor/lib64/libGPreqcancel.so|2955d61f145c3320819f334435c9baf6a2743fed
+vendor/lib64/libGPreqcancel_svc.so|a6ab5133ff3eb6d6deac7089ae48d7a178d932c4
+vendor/lib64/libQSEEComAPI.so|fb7be96182999587d97a036495053a3ebb4c3198
+vendor/lib64/libSecureUILib.so|229b12b644e0a6e473a2b19288d9681f8f85e3a9
+vendor/lib64/libStDrvInt.so|7cd68b54dfc076a475d2cad25d9cbcee9254c78a
+vendor/lib64/libdrmfs.so|e11b8e8bf02bdc2ea817e59800d8945ee2a24460
+vendor/lib64/libdrmtime.so|a15a6f30d4e1f11025a3d947991fe54e4c4a9178
+vendor/lib64/libqisl.so|cbf1d38899e7240b943cee8dec127fd8f55b02c1
+vendor/lib64/librpmb.so|001098ad903adc4d17d609b7afa044a2aa86aa16
+vendor/lib64/libsecureui.so|d6ed46e35f5b504e6261478782d6900c4358c9d1
+vendor/lib64/libsecureui_svcsock.so|289c97fa09c4c626bbbc4918108efd3a01932ae0
+vendor/lib64/libssd.so|c7f2ddb2e47d1a3d03ed04e15a883b3ecb8e0b70
+
+# Gatekeeper - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|3746658d0fb38050fb850e4bd91a7c777beda74e
+vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|aaad6de1e51d86ff822aedb3482f61e0703e3c37
 
 # Gatekeeper - from X00P - PPR1.180610.009-16.00.1906.411-20190712
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|86576b2c5abfc4e0621853c1ffe179b57b27b5dd
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|98a7de3317c0ff4af038930f00510e788db042c8
-vendor/lib64/hw/gatekeeper.msm8937.so|964f53fa236bd0e36f0aa12ebf25633bb9ad1b47
 
 # GPS - from LA.UM.8.6.2.r1-03700-89xx.0
 vendor/bin/garden_app|512ff3f2748418a407cf654514833b74d47fb2c1
@@ -309,8 +312,9 @@ vendor/lib64/libkeymasterdeviceutils.so|3b4d1b97549b15d85254739613fc8d772f716806
 vendor/lib64/libkeymasterprovision.so|06ab53f77fd2590407d6557bd26e0c58b39d71bf
 vendor/lib64/libkeymasterutils.so|4c8273711b5ba1a503d4581f661ed20a1578810d
 
-# Keystore - from X00P - PPR1.180610.009-16.00.1906.411-20190712
-vendor/lib64/hw/keystore.msm8937.so|c9380374c921e28bef8b11b414614531bf465410
+# Keystore - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|a10a63a4211a780ce499e27a635b8800e8e8c701
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|e8dded3c500eb785d667ddc0d3010f5aac9cfcd6
 
 # Listen - from tissot - V10.0.9.0.PDHMIXM
 vendor/lib64/hw/sound_trigger.primary.msm8953.so:vendor/lib64/hw/sound_trigger.primary.msm8937.so|857963f4e9724dd1bd2d4a4bfe28341109010e96
@@ -677,13 +681,11 @@ vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
 -vendor/lib/libtime_genoff.so|d140c8f7772f5218557193058eee8c34a7d0e19a
 -vendor/lib64/libtime_genoff.so|253aca0fe9ca844886b0ae80d9816f80017a1880
 
-# TUI - from tissot - V10.0.9.0.PDHMIXM
-lib/vendor.qti.hardware.tui_comm@1.0.so|03a2143899def287dd48b2290f769b4eebdd61d0
-lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|86c327a8310fcc42f69c85ec0868c630903c7d79
+# TUI - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|06dc102cb8c3d86bdf45e960c40dea8cf5d716dd
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|03a2143899def287dd48b2290f769b4eebdd61d0
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|685a9c0cebc15f5b8b3825fbcd7396d5b3c62385
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4b884ee86bd3796bf36ec47ceb8a7c53d26f5a42
 
 # Widevine - from LA.UM.8.6.2.r1-03700-89xx.0
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
