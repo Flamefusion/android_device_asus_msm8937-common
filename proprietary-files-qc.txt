@@ -182,10 +182,10 @@ vendor/lib64/libssd.so|bcb7c4213115f2377e0d30dd1a05cae5e88212e4
 vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|c153dbbd2c31ccee8633837961ce79909257af04
 vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 
-# Gatekeeper - from X00P - PPR1.180610.009-16.00.1906.411-20190712
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|86576b2c5abfc4e0621853c1ffe179b57b27b5dd
+# Gatekeeper - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|98a7de3317c0ff4af038930f00510e788db042c8
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|b6eb7ee197a436080dc18235d76efdad2e006fd6
 
 # GPS - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/garden_app|816ac78085d9b72f03e29da4661ef12f73c9063f
@@ -309,13 +309,13 @@ vendor/firmware/a540_gpmu.fw2|3530f10b4825a3b08c79e0bcfaf6471ec8422f24
 # Ipacm - from tissot - V10.0.9.0.PDHMIXM
 vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
 
-# Keymaster - from X00P - PPR1.180610.009-16.00.1906.411-20190712
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|023a0e237fbc068a3191e91e5a1ec0ea5831d52b
+# Keymaster - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ac0aabf396888c9dc8b6dc23291e190daa943e24
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|67d06cd62466a24c4c2da707216384edd1b8ec00
-vendor/lib64/libkeymasterdeviceutils.so|3b4d1b97549b15d85254739613fc8d772f716806
-vendor/lib64/libkeymasterprovision.so|06ab53f77fd2590407d6557bd26e0c58b39d71bf
-vendor/lib64/libkeymasterutils.so|4c8273711b5ba1a503d4581f661ed20a1578810d
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|6041d4529dc20e9c7d422677445d04b7867cb2b1
+vendor/lib64/libkeymasterdeviceutils.so|784e8f3e6bb36214d171ba127454554049d140f5
+vendor/lib64/libkeymasterprovision.so|af61b88604f6be1a2cc630876683fa876fa49713
+vendor/lib64/libkeymasterutils.so|aae020ea0a13d05e52c8031daae360b84f5c1a43
 
 # Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
