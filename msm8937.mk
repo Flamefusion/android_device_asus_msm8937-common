@@ -18,7 +18,6 @@ $(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
 VENDOR_PATH = device/asus/msm8937-common
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -314,10 +313,6 @@ PRODUCT_COPY_FILES += \
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # USB HAL
 PRODUCT_PACKAGES += \
