@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Camera2
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
