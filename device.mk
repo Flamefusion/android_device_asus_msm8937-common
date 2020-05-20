@@ -15,7 +15,7 @@
 #
 
 $(call inherit-product, vendor/asus/X00P/X00P-vendor.mk)
-VENDOR_PATH = vendor/asus/X00P
+VENDOR_PATH = device/asus/X00P
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
 
