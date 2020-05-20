@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-VENDOR_PATH := device/asus/msm8937-common
+VENDOR_PATH := device/asus/X00P
 
 # Architecture
 TARGET_ARCH := arm64
@@ -216,4 +216,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
 
 # Inherit from the proprietary version
--include vendor/asus/msm8937-common/BoardConfigVendor.mk
+-include vendor/asus/X00P/BoardConfigVendor.mk
