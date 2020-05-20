@@ -1,0 +1,36 @@
+[
+  {
+    "repository":  "kernel_asus_X00P",
+    "target_path": "kernel/asus/X00P",
+    "branch": "ten"
+  },
+  {
+    "repository":  "vendor_asus",
+    "target_path": "vendor/asus",
+    "branch": "ten"
+  },
+  {
+   "remote": "aospa",
+   "repository": "AOSPA/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom/audio",
+   "revision": "quartz-89xx"
+  },
+  {
+  "remote": "aospa",
+  "repository": "AOSPA/android_hardware_qcom_display",
+  "target_path": "hardware/qcom/display",
+  "revision": "quartz-89xx"
+  },
+  {
+  "remote": "aospa",
+  "repository": "AOSPA/android_hardware_qcom_media",
+  "target_path": "hardware/qcom/media",
+  "revision": "quartz-89xx"
+  },
+  {
+   "remote": "aospa",
+   "repository": "AOSPA/android_packages_apps_Bluetooth",
+   "target_path": "packages/apps/Bluetooth",
+   "revision":     "quartz-dev"
+  }
+]
