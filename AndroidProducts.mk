@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pa_X00P.mk
+    $(LOCAL_DIR)/bliss_X00P.mk
 
 COMMON_LUNCH_CHOICES := \
-    pa_X00P-user \
-    pa_X00P-userdebug \
-    pa_X00P-eng
+    bliss_X00P-user \
+    bliss_X00P-userdebug \
+    bliss_X00P-eng
