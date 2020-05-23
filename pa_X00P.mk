@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 # Check for the target product.
-ifeq (pa_X00P,$(TARGET_PRODUCT))
+ifeq (bliss_X00P,$(TARGET_PRODUCT))
 endif
 DEVICE_PATH := device/asus/X00P
 
