@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/asus/msm8937-common/msm8937-common-vendor.mk)
-VENDOR_PATH = device/asus/msm8937-common
+$(call inherit-product, vendor/asus/X00P/X00P-vendor.mk)
+VENDOR_PATH = device/asus/X00P
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(VENDOR_PATH)/overlay-lineage
